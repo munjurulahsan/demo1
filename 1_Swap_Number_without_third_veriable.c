@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&number2);
     printf("Before Swapping Number: %d %d\n",number1,number2);
 
-    //Swapping
+    //Swapping version 2
     number1=number1+number2;
     number2=number1-number2;
     number1=number1-number2;
